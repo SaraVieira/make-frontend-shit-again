@@ -25,7 +25,7 @@
       Inspiration Websites:
     </h1>
     <div class="container">
-      <a :key="website" v-for="website in data" target="_blank" :href="website.url"><img class="website" :src="website.image || website.logo" :alt="website.title || 'Awesome'" /></a>
+      <a :key="website" v-for="website in data" target="_blank" rel="nofollow noopener" :href="website.url"><img class="website" :src="website.image || website.logo" :alt="website.title || 'Awesome'" /></a>
     </div>
     <div class="container bg5">
       <h1 class="subtitle">
