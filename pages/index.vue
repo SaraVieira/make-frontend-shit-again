@@ -25,7 +25,7 @@
       Inspiration Websites:
     </h1>
     <div class="container">
-      <a :key="website" v-for="website in websites" target="_blank" class="link" :href="website">{{website}}</a>
+      <a :key="website" v-for="website in data" target="_blank" :href="website.url"><img class="website" :src="website.image || website.logo" :alt="website.title || 'Awesome'" /></a>
     </div>
     <div class="container bg5">
       <h1 class="subtitle">
@@ -35,7 +35,7 @@
       <div>
         <img src="../assets/10.gif" />
         <p>Website made by
-          <a href="https://twitter.com/NikkitaFTW">Sara Vieira</a> at a Hackaton </p>
+          <a href="https://twitter.com/NikkitaFTW">Sara Vieira</a> at a Hackathon </p>
         <p>Source code at
           <a href="https://github.com/SaraVieira/make-frontend-shit-again">Github</a>
         </p>
@@ -51,7 +51,7 @@
 import Page2 from '~/components/Page2.vue';
 import Page3 from '~/components/Page3.vue';
 import Page4 from '~/components/Page4.vue';
-import microlink from 'microlinkjs';
+import axios from 'axios';
 
 export default {
     components: {
@@ -111,11 +111,16 @@ export default {
                 'http://buzzybuzz.biz/',
                 'http://yeahlemons.com/',
                 'http://www.111111111111111111111111111111111111111111111111111111111111.com/'
-            ]
+            ],
+            data: []
         };
     },
     mounted() {
-        microlink('.link');
+        this.websites.map(website => {
+            axios(
+                `https://api.makefrontendshitagain.party/?url=${website}`
+            ).then(rsp => this.data.push(rsp.data));
+        });
     }
 };
 </script>
@@ -129,6 +134,32 @@ export default {
     align-items: center;
     text-align: center;
     position: relative;
+}
+
+img {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    display: block;
+    position: relative;
+}
+
+img:after {
+    content: attr(alt);
+
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
 }
 
 p {
