@@ -117,7 +117,8 @@ export default {
                 'http://fastcashmoneyplus.biz/',
                 'https://brucewillis.sexy/',
                 'https://rms.sexy/',
-                'https://goatattack.com/'
+                'https://goatattack.com/',
+                'https://golfcl.app/'
             ],
             data: []
         };
