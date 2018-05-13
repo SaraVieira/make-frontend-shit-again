@@ -167,6 +167,9 @@ h1 {
 h2 {
     margin-top: 20px;
 }
+.subtitle {
+    max-width: 90%;
+}
 
 .center {
     text-align: center;
