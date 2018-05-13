@@ -4,7 +4,7 @@
       <div>
         <img class="logo" src="../assets/ship.gif" alt="spaceship" />
         <h1 class="subtitle ">
-          Make Frontend Shit Again
+          <img src="../assets/make.gif" alt="spaceship" />
         </h1>
         <section>
           <h2>Scroll down for awesomness</h2>
@@ -27,6 +27,15 @@
     <div class="container">
       <a :key="website" v-for="website in websites" class="link" :href="website">{{website}}</a>
     </div>
+    <div class="container bg5">
+      <h1 class="subtitle">
+        We used to make websites because it was fun and at a point we lost the way.
+        <br /> We need to make dumb shit! Make useless stuff, make the web fun again!
+      </h1>
+      <img src="../assets/10.gif" />
+      <div class="bottom"></div>
+      <div class="top bottom"></div>
+    </div>
   </div>
 </template>
 
@@ -47,6 +56,7 @@ export default {
             websites: [
                 'http://thatsthefinger.com/',
                 'http://hooooooooo.com/',
+                'https://gifcities.org/',
                 'http://tinytuba.com/',
                 'http://cant-not-tweet-this.com/',
                 'http://www.staggeringbeauty.com/',
@@ -109,6 +119,23 @@ export default {
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: relative;
+}
+
+.bottom {
+    background: url('../assets/16.gif');
+    width: 100vw;
+    height: 15px;
+    position: absolute;
+    bottom: 0;
+}
+
+.top {
+    top: 0;
+}
+
+.bg5 {
+    background: url('../assets/bg5.png');
 }
 
 .link {
@@ -117,7 +144,7 @@ export default {
 }
 
 h1 {
-    font-size: 78px;
+    font-size: 60px;
 }
 
 h2 {

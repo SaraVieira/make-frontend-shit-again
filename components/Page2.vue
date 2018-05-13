@@ -1,11 +1,14 @@
 <template>
   <section class="container">
+    <img class="image3" src="../assets/crysballbar.gif" />
     <div>
       <img class="logo" src="../assets/ship2.gif" alt="spaceship" />
       <h1 class="subtitle ">
-        Remeber when Frontend was fun ?
+        <img class="fun" src="../assets/fun.gif" alt="spaceship" />
       </h1>
     </div>
+    <img class="image4" src="../assets/hotdog.gif" />
+    <img class="image5" src="../assets/hotdog.gif" />
   </section>
 </template>
 
@@ -25,6 +28,7 @@ export default {
     width: 100vw;
     display: flex;
     justify-content: center;
+    position: relative;
     align-items: center;
     text-align: center;
     background: url('../assets/bg-1.png');
@@ -35,12 +39,30 @@ h1 {
     color: black;
 }
 
+.image4 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.image5 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: scaleX(-1);
+}
+
 h2 {
     margin-top: 20px;
 }
 
 .logo {
     width: 200px;
+}
+
+.fun {
+    max-width: 90%;
+    text-align: center;
 }
 
 section {

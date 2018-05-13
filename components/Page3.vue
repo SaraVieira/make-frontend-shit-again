@@ -1,5 +1,6 @@
 <template>
   <section class="container">
+    <div class="top" />
     <ul>
       <li>Remeber FTP ? <img width="150" src="../assets/ftp.gif" /></li>
       <li>Remeber Blink ? <img width="200" src="../assets/blink.gif" />
@@ -7,6 +8,9 @@
       <li>Remeber HTML ? <img width="150" src="../assets/html.gif" /></li>
       <li>Remeber jQuery ? <img width="150" src="../assets/jquery.gif" /></li>
     </ul>
+
+    <img class="image4" src="../assets/37.gif" />
+    <img class="image5" src="../assets/37.gif" />
   </section>
 </template>
 
@@ -29,6 +33,28 @@ export default {
     align-items: center;
     text-align: center;
     background: url('../assets/bg-3.png');
+    position: relative;
+}
+
+.top {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 43px;
+    background: url('../assets/baloons.gif');
+}
+
+.image4 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.image5 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: scaleX(-1);
 }
 
 h1 {
