@@ -25,17 +25,22 @@
       Inspiration Websites:
     </h1>
     <div class="container">
-      <a :key="website" v-for="website in websites" class="link" :href="website">{{website}}</a>
+      <a :key="website" v-for="website in websites" target="_blank" class="link" :href="website">{{website}}</a>
     </div>
     <div class="container bg5">
       <h1 class="subtitle">
         We used to make websites because it was fun and at a point we lost the way.
         <br /> We need to make dumb shit! Make useless stuff, make the web fun again!
       </h1>
-      <img src="../assets/10.gif" />
+      <div>
+        <img src="../assets/10.gif" />
+        <p>Website made by
+          <a href="https://twitter.com/NikkitaFTW">Sara Vieira</a> at a Hackaton </p>
+      </div>
       <div class="bottom"></div>
       <div class="top bottom"></div>
     </div>
+
   </div>
 </template>
 
@@ -120,6 +125,14 @@ export default {
     align-items: center;
     text-align: center;
     position: relative;
+}
+
+p {
+    font-size: 18px;
+}
+
+a {
+    color: blue;
 }
 
 .bottom {
