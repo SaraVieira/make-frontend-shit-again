@@ -2,9 +2,11 @@
 
 > Make Frontend Shit Again
 
+https://makefrontendshitagain.party
+
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ npm install # Or yarn install
 
