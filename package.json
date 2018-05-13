@@ -13,6 +13,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@nuxtjs/google-analytics": "^2.0.2",
     "dom101": "^2.2.1",
     "microlinkjs": "^2.0.4",
     "nuxt": "^1.0.0",
