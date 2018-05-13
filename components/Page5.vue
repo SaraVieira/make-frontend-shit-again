@@ -20,6 +20,7 @@
 <style scoped>
 .container {
     background: url('../assets/bg5.png');
+    flex-direction: column;
 }
 
 .bottom {
