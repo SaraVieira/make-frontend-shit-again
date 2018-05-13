@@ -110,6 +110,7 @@ export default {
                 'http://www.ascii-middle-finger.com/',
                 'http://buzzybuzz.biz/',
                 'http://yeahlemons.com/',
+                'https://golfcl.app/',
                 'http://www.111111111111111111111111111111111111111111111111111111111111.com/'
             ],
             data: []
