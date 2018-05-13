@@ -110,7 +110,8 @@ export default {
                 'http://www.ascii-middle-finger.com/',
                 'http://buzzybuzz.biz/',
                 'http://yeahlemons.com/',
-                'http://www.111111111111111111111111111111111111111111111111111111111111.com/'
+                'http://www.111111111111111111111111111111111111111111111111111111111111.com/',
+                'https://golfcl.app/'
             ]
         };
     },
