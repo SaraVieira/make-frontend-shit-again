@@ -4,6 +4,9 @@
 
 https://makefrontendshitagain.party
 
+
+> It's complicated on porpuse btw, I wanted to do it in ReasonML and Graphql but didn't have time as this was done in an afternoon hackathon
+
 ## Build Setup
 
 ```bash
