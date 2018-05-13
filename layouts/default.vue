@@ -27,4 +27,33 @@ html {
     box-sizing: border-box;
     margin: 0;
 }
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 18px;
+}
+
+a {
+    color: lightblue;
+}
+
+.center {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.container {
+    position: relative;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 </style>

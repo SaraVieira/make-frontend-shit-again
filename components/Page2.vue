@@ -12,25 +12,8 @@
   </section>
 </template>
 
-<script>
-import Page2 from '~/components/Page2.vue';
-
-export default {
-    components: {
-        Page2
-    }
-};
-</script>
-
 <style scoped>
 .container {
-    min-height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    align-items: center;
-    text-align: center;
     background: url('../assets/bg-1.png');
 }
 
@@ -52,10 +35,6 @@ h1 {
     transform: scaleX(-1);
 }
 
-h2 {
-    margin-top: 20px;
-}
-
 .logo {
     width: 200px;
 }
@@ -70,13 +49,5 @@ section {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-
-.arrowAnim {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 </style>

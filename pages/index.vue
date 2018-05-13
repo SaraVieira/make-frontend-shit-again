@@ -1,19 +1,7 @@
 <template>
   <div>
     <section class="container">
-      <div>
-        <img class="logo" src="../assets/ship.gif" alt="spaceship" />
-        <h1 class="subtitle ">
-          <img src="../assets/make.gif" alt="spaceship" />
-        </h1>
-        <section>
-          <h2>
-            <marquee>Scroll down for awesomness</marquee>
-          </h2>
-          <img width="30px" src="../assets/scroll-down_blinking.gif" />
-        </section>
-      </div>
-      <div class="page1 bottom"></div>
+      <Page1/>
     </section>
     <div class="container">
       <Page2 />
@@ -30,21 +18,8 @@
     <div class="container">
       <a :key="website.title" v-for="website in data" target="_blank" rel="nofollow noopener" :href="website.url"><img class="website" :src="website.image || website.logo" :alt="website.title || 'Awesome'" /></a>
     </div>
-    <div class="container bg5">
-      <h1 class="subtitle">
-        We used to make websites because it was fun and at a point we lost the way.
-        <br /> We need to make dumb shit! Make useless stuff, make the web fun again!
-      </h1>
-      <div>
-        <img src="../assets/10.gif" />
-        <p>Website made by
-          <a href="https://twitter.com/NikkitaFTW">Sara Vieira</a> at a Hackathon </p>
-        <p>Source code at
-          <a href="https://github.com/SaraVieira/make-frontend-shit-again">Github</a>
-        </p>
-      </div>
-      <div class="bottom"></div>
-      <div class="top bottom"></div>
+    <div class="container">
+      <Page5 />
     </div>
 
   </div>
@@ -54,13 +29,17 @@
 import Page2 from '~/components/Page2.vue';
 import Page3 from '~/components/Page3.vue';
 import Page4 from '~/components/Page4.vue';
+import Page5 from '~/components/Page5.vue';
+import Page1 from '~/components/Page1.vue';
 import axios from 'axios';
 
 export default {
     components: {
+        Page1,
         Page2,
         Page3,
-        Page4
+        Page4,
+        Page5
     },
     data() {
         return {
@@ -134,16 +113,6 @@ export default {
 </script>
 
 <style scoped>
-.container {
-    min-height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
-}
-
 .website {
     text-align: center;
     width: 150px;
@@ -154,10 +123,8 @@ export default {
 
 .website:after {
     content: attr(alt);
-
     font-size: 16px;
     color: rgb(100, 100, 100);
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -170,33 +137,12 @@ export default {
     background-color: #fff;
 }
 
-p {
-    font-size: 18px;
-}
-
-a {
-    color: lightblue;
-}
-
 .bottom {
-    background: url('../assets/16.gif');
     width: 100vw;
-    height: 15px;
-    position: absolute;
-    bottom: 0;
-}
-
-.page1 {
     background: url('../assets/under.gif');
     height: 45px;
-}
-
-.top {
-    top: 0;
-}
-
-.bg5 {
-    background: url('../assets/bg5.png');
+    position: absolute;
+    bottom: 0;
 }
 
 .link {
@@ -204,28 +150,7 @@ a {
     margin: 10px;
 }
 
-h1 {
-    font-size: 60px;
-}
-
-h2 {
-    margin-top: 20px;
-}
 .subtitle {
     max-width: 90%;
-}
-
-.center {
-    text-align: center;
-}
-.logo {
-    width: 200px;
-}
-
-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
 }
 </style>

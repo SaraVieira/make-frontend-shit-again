@@ -13,13 +13,6 @@
 
 <style scoped>
 .container {
-    position: relative;
-    min-height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     background: url('../assets/bg4.png');
 }
 
