@@ -7,10 +7,13 @@
           <img src="../assets/make.gif" alt="spaceship" />
         </h1>
         <section>
-          <h2>Scroll down for awesomness</h2>
+          <h2>
+            <marquee>Scroll down for awesomness</marquee>
+          </h2>
           <img width="30px" src="../assets/scroll-down_blinking.gif" />
         </section>
       </div>
+      <div class="page1 bottom"></div>
     </section>
     <div class="container">
       <Page2 />
@@ -25,7 +28,7 @@
       Inspiration Websites:
     </h1>
     <div class="container">
-      <a :key="website" v-for="website in data" target="_blank" rel="nofollow noopener" :href="website.url"><img class="website" :src="website.image || website.logo" :alt="website.title || 'Awesome'" /></a>
+      <a :key="website.title" v-for="website in data" target="_blank" rel="nofollow noopener" :href="website.url"><img class="website" :src="website.image || website.logo" :alt="website.title || 'Awesome'" /></a>
     </div>
     <div class="container bg5">
       <h1 class="subtitle">
@@ -110,7 +113,11 @@ export default {
                 'http://www.ascii-middle-finger.com/',
                 'http://buzzybuzz.biz/',
                 'http://yeahlemons.com/',
-                'http://www.111111111111111111111111111111111111111111111111111111111111.com/'
+                'http://www.111111111111111111111111111111111111111111111111111111111111.com/',
+                'http://fastcashmoneyplus.biz/',
+                'https://brucewillis.sexy/',
+                'https://rms.sexy/',
+                'https://goatattack.com/'
             ],
             data: []
         };
@@ -136,7 +143,7 @@ export default {
     position: relative;
 }
 
-img {
+.website {
     text-align: center;
     width: 150px;
     height: 150px;
@@ -144,7 +151,7 @@ img {
     position: relative;
 }
 
-img:after {
+.website:after {
     content: attr(alt);
 
     font-size: 16px;
@@ -176,6 +183,11 @@ a {
     height: 15px;
     position: absolute;
     bottom: 0;
+}
+
+.page1 {
+    background: url('../assets/under.gif');
+    height: 45px;
 }
 
 .top {
