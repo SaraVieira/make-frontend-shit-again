@@ -2,11 +2,11 @@
   <section class="container">
     <div class="top" />
     <ul>
-      <li>Remeber FTP ? <img width="150" src="../assets/ftp.gif" /></li>
-      <li>Remeber Blink ? <img width="200" src="../assets/blink.gif" />
+      <li>Remember FTP ? <img width="150" src="../assets/ftp.gif" /></li>
+      <li>Remember Blink ? <img width="200" src="../assets/blink.gif" />
       </li>
-      <li>Remeber HTML ? <img width="150" src="../assets/html.gif" /></li>
-      <li>Remeber jQuery ? <img width="150" src="../assets/jquery.gif" /></li>
+      <li>Remember HTML ? <img width="150" src="../assets/html.gif" /></li>
+      <li>Remember jQuery ? <img width="150" src="../assets/jquery.gif" /></li>
     </ul>
 
     <img class="image4" src="../assets/37.gif" />

@@ -36,6 +36,9 @@
         <img src="../assets/10.gif" />
         <p>Website made by
           <a href="https://twitter.com/NikkitaFTW">Sara Vieira</a> at a Hackaton </p>
+        <p>Source code at
+          <a href="https://github.com/SaraVieira/make-frontend-shit-again">Github</a>
+        </p>
       </div>
       <div class="bottom"></div>
       <div class="top bottom"></div>
@@ -132,7 +135,7 @@ p {
 }
 
 a {
-    color: blue;
+    color: lightblue;
 }
 
 .bottom {
