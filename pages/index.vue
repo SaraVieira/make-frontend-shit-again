@@ -25,7 +25,7 @@
       Inspiration Websites:
     </h1>
     <div class="container">
-      <a :key="website" v-for="website in websites" target="_blank" class="link" :href="website">{{website}}</a>
+      <a :key="website" v-for="website in websites" rel="nofollow noopener" target="_blank" class="link" :href="website">{{website}}</a>
     </div>
     <div class="container bg5">
       <h1 class="subtitle">
