@@ -25,9 +25,9 @@
         href="http://www.cutercounter.com/" 
         target="_blank"><img 
           width="125" 
-          src="http://www.cutercounter.com/hit.php?id=10182&nd=6&style=10" 
+          src="http://www.cutercounter.com/hit.php?id=10190&nd=6&style=10" 
           border="0" 
-          alt="counter"></a>
+          alt="free counter"></a>
       <img 
         src="../assets/baby.gif" 
         alt="baby dancing">
