@@ -1,0 +1,11 @@
+{
+  "root": true,
+  "extends": ["prettier", "prettier/standard", "plugin:vue/recommended"],
+  "plugins": ["vue", "prettier"],
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}

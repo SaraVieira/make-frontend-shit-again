@@ -1,5 +1,7 @@
 # make-frontend-shit-again
 
+[![Build Status](https://travis-ci.org/https://github.com/SaraVieira/make-frontend-shit-again.svg)](https://travis-ci.org/https://github.com/SaraVieira/make-frontend-shit-again)
+
 > Make Frontend Shit Again
 
 https://makefrontendshitagain.party
