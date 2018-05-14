@@ -53,5 +53,6 @@ export default [
   'https://rms.sexy/',
   'https://goatattack.com/',
   'https://golfcl.app/',
+  'http://space-turtles.rocks/',
   'https://www.warnerbros.com/archive/spacejam/movie/jam.htm'
 ];
