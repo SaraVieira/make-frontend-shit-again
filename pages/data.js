@@ -59,5 +59,6 @@ export default [
   "http://www.vape.horse/",
   "https://hem.larsemil.se/",
   "http://rayps.com/",
-  "http://akrepnalan.com/"
+  "http://akrepnalan.com/",
+  "https://wesley.so/archive/1999/"
 ]
