@@ -4,6 +4,17 @@
   </div>
 </template>
 
+<script>
+export default {
+  mounted() {
+    document.addEventListener("contextmenu", event => {
+      event.preventDefault()
+      alert("Right click is disabled!!!")
+    })
+  }
+}
+</script>
+
 <style>
 @import url("https://fonts.googleapis.com/css?family=Caveat");
 html {
