@@ -48,7 +48,7 @@ export default {
         };
     },
     mounted() {
-        this.websites.map(website => {
+        this.websites.forEach(website => {
             axios(
                 `https://api.makefrontendshitagain.party/?url=${website}`
             ).then(rsp => this.data.push(rsp.data));
