@@ -27,6 +27,9 @@
         src="http://www.cutercounter.com/hit.php?id=10182&nd=6&style=10" 
         border="0" 
         alt="counter">
+      <img 
+        src="../assets/baby.gif" 
+        alt="baby dancing">
     </div>
     <div class="bottom" />
   </section>
@@ -39,6 +42,11 @@
 
 .counter {
   margin-top: 50px;
+}
+
+img {
+  display: block;
+  margin: auto;
 }
 
 .bottom {
