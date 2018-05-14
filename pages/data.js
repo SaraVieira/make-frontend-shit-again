@@ -52,5 +52,6 @@ export default [
   'https://brucewillis.sexy/',
   'https://rms.sexy/',
   'https://goatattack.com/',
-  'https://golfcl.app/'
+  'https://golfcl.app/',
+  'https://www.warnerbros.com/archive/spacejam/movie/jam.htm'
 ];
