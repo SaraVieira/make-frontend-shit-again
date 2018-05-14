@@ -2,25 +2,28 @@
   <section class="container">
     <img 
       class="image3" 
-      src="../assets/crysballbar.gif" >
+      alt="christall ball" 
+      src="../assets/crysballbar.gif">
     <div>
       <img 
         class="logo" 
         src="../assets/ship2.gif" 
-        alt="spaceship" >
+        alt="spaceship">
       <h1 class="subtitle ">
         <img 
           class="fun" 
           src="../assets/fun.gif" 
-          alt="spaceship" >
+          alt="fun">
       </h1>
     </div>
     <img 
       class="image4" 
-      src="../assets/hotdog.gif" >
+      alt="hotdog" 
+      src="../assets/hotdog.gif">
     <img 
       class="image5" 
-      src="../assets/hotdog.gif" >
+      alt="hotdog" 
+      src="../assets/hotdog.gif">
   </section>
 </template>
 

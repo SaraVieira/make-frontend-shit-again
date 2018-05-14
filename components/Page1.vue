@@ -11,11 +11,10 @@
           alt="spaceship">
       </h1>
       <section>
-        <h2>
-          <marquee>Scroll down for awesomness | Scroll down for awesomness | Scroll down for awesomness |</marquee>
-        </h2>
+        <marquee>Scroll down for awesomness | Scroll down for awesomness | Scroll down for awesomness |</marquee>
         <img 
-          width="30px" 
+          width="30" 
+          alt="scroll" 
           src="../assets/scroll-down_blinking.gif">
       </section>
 
@@ -38,6 +37,13 @@
 <style scoped>
 .logo {
   width: 200px;
+}
+
+marquee {
+  margin-top: 20px;
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 .counter {

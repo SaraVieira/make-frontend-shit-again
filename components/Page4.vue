@@ -4,23 +4,28 @@
       <img 
         class="logo" 
         src="../assets/dope.gif" 
-        alt="spaceship" >
+        alt="dope">
     </div>
     <img 
       class="image1" 
-      src="../assets/debuggingthemind.gif" >
+      alt="debuggingthemind" 
+      src="../assets/debuggingthemind.gif">
     <img 
       class="image2" 
-      src="../assets/frontend1.gif" >
+      alt="frontend1" 
+      src="../assets/frontend1.gif">
     <img 
       class="image3" 
-      src="../assets/pizzalove.gif" >
+      alt="pizzalove" 
+      src="../assets/pizzalove.gif">
     <img 
       class="image4" 
-      src="../assets/dolphin.gif" >
+      alt="dolphin" 
+      src="../assets/dolphin.gif">
     <img 
       class="image5" 
-      src="../assets/dolphin.gif" >
+      alt="dolphin" 
+      src="../assets/dolphin.gif">
   </section>
 </template>
 
