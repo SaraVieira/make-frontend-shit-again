@@ -58,5 +58,6 @@ export default [
   "http://rtr.hackedbygod.net/",
   "http://www.vape.horse/",
   "https://hem.larsemil.se/",
-  "http://rayps.com/"
+  "http://rayps.com/",
+  "http://akrepnalan.com/"
 ]
