@@ -54,5 +54,9 @@ export default [
   'https://goatattack.com/',
   'https://golfcl.app/',
   'http://space-turtles.rocks/',
-  'https://www.warnerbros.com/archive/spacejam/movie/jam.htm'
+  'https://www.warnerbros.com/archive/spacejam/movie/jam.htm',
+  'http://rtr.hackedbygod.net/',
+  'http://www.vape.horse/',
+  'https://hem.larsemil.se/',
+  'http://rayps.com/'
 ];
