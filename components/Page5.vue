@@ -2,14 +2,14 @@
   <section class="container">
     <h1>
       We used to make websites because it was fun and at a point we lost the way.
-      <br /> We need to make dumb shit! Make useless stuff, make the web fun again!
+      <br /> We need to make dumb shit! Make useless stuff; make the web fun again!
     </h1>
     <div>
       <img src="../assets/10.gif" />
       <p>Website made by
         <a href="https://twitter.com/NikkitaFTW ">Sara Vieira</a> at a Hackathon </p>
       <p>Source code at
-        <a href="https://github.com/SaraVieira/make-frontend-shit-again ">Github</a>
+        <a href="https://github.com/SaraVieira/make-frontend-shit-again ">GitHub</a>
       </p>
     </div>
     <div class="bottom "></div>
