@@ -32,7 +32,7 @@ html {
   cursor: url("../assets/cursor.gif"), auto;
 }
 
-img{
+img {
   user-select: none;
 }
 
