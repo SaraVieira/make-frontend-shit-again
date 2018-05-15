@@ -61,7 +61,7 @@ export default {
     }
   },
   mounted() {
-    document.querySelector('audio').play()
+    document.querySelector("audio").play()
     this.websites.forEach(website => {
       axios(`https://api.makefrontendshitagain.party/?url=${website}`).then(
         rsp => this.data.push(rsp.data)
