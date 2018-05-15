@@ -26,7 +26,7 @@
       <section>
         <marquee behavior="alternate">
           &#x3C; Scroll down for awesomness | Scroll down for awesomness &#x3E;
-         </marquee>
+        </marquee>
         <img 
           width="30" 
           alt="scroll" 
