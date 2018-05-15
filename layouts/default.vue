@@ -32,6 +32,10 @@ html {
   cursor: url("../assets/cursor.gif"), auto;
 }
 
+img {
+  user-select: none;
+}
+
 ul {
   list-style: none;
   padding: 0;

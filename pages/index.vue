@@ -1,7 +1,6 @@
 <template>
   <div>
-    <audio 
-      id="song" 
+    <audio
       src="https://music-shitty-fe.now.sh" 
       autoplay 
       controls 
@@ -62,7 +61,7 @@ export default {
     }
   },
   mounted() {
-    document.getElementById("song").play()
+    document.querySelector("audio").play()
     this.websites.forEach(website => {
       axios(`https://api.makefrontendshitagain.party/?url=${website}`).then(
         rsp => this.data.push(rsp.data)
@@ -75,6 +74,7 @@ export default {
 <style scoped lang="scss">
 audio {
   position: absolute;
+  z-index: 10;
 }
 .website {
   text-align: center;
