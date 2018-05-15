@@ -24,7 +24,9 @@
           alt="spaceship">
       </h1>
       <section>
-        <marquee>Scroll down for awesomness | Scroll down for awesomness | Scroll down for awesomness |</marquee>
+        <marquee behavior="alternate">
+          < Scroll down for awesomness | Scroll down for awesomness >
+         </marquee>
         <img 
           width="30" 
           alt="scroll" 
