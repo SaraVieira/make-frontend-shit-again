@@ -60,5 +60,8 @@ export default [
   "https://hem.larsemil.se/",
   "http://rayps.com/",
   "http://akrepnalan.com/",
-  "https://wesley.so/archive/1999/"
+  "https://wesley.so/archive/1999/",
+  "http://terrorpigeon.us/",
+  "https://donotpress.wezz.se/",
+  "http://paulvm.com/"
 ]

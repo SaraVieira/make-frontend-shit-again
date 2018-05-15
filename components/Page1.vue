@@ -23,7 +23,8 @@
       </h2>
       <a 
         href="http://www.cutercounter.com/" 
-        target="_blank"><img 
+        target="_blank" 
+        rel="nofollow noopener"><img 
           width="125" 
           src="http://www.cutercounter.com/hit.php?id=10190&nd=6&style=10" 
           border="0" 

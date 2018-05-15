@@ -17,13 +17,16 @@
     <section class="badges">
       <img 
         src="../assets/valid-html40.png" 
-        alt="valid html" >
+        alt="valid html">
       <img 
         src="../assets/w3c-css.gif" 
-        alt="valid css" >
-      <img 
-        src="../assets/netscape.gif" 
-        alt="valid html" >
+        alt="valid css">
+      <a 
+        rel="nofollow noopener" 
+        href="http://www.oldversion.com/windows/netscape-3-04" 
+        target="_blank"><img 
+          src="../assets/netscape.gif" 
+          alt="netscape"></a>
     </section>
     <div class="bottom " />
     <div class="top bottom " />
