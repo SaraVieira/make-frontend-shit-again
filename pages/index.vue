@@ -1,5 +1,10 @@
 <template>
   <div>
+    <audio 
+      src="https://music-shitty-fe.now.sh" 
+      autoplay 
+      controls 
+      preload="auto" />
     <section class="container">
       <Page1/>
     </section>
@@ -24,7 +29,7 @@
         rel="nofollow noopener"><img 
           :src="website.image || website.logo" 
           :alt="website.title || 'Awesome'" 
-          class="website" ></a>
+          class="website"></a>
     </section>
     <section class="container">
       <Page5 />
