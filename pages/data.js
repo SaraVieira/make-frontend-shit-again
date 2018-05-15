@@ -64,5 +64,6 @@ export default [
   "http://terrorpigeon.us/",
   "https://donotpress.wezz.se/",
   "http://paulvm.com/",
-  "http://pudim.com.br/"
+  "http://pudim.com.br/",
+  "http://originalhampster.ytmnd.com/"
 ]
