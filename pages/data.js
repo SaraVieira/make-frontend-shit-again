@@ -63,5 +63,6 @@ export default [
   "https://wesley.so/archive/1999/",
   "http://terrorpigeon.us/",
   "https://donotpress.wezz.se/",
-  "http://paulvm.com/"
+  "http://paulvm.com/",
+  "http://originalhampster.ytmnd.com/"
 ]
