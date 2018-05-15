@@ -73,6 +73,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+audio {
+  position: absolute;
+}
 .website {
   text-align: center;
   width: 150px;

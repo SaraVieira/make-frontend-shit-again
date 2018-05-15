@@ -1,6 +1,19 @@
 <template>
   <section>
     <div>
+      <section class="translations">
+        <h2>Translations</h2>
+        <ul>
+          <li>
+            <a 
+              href="https://kr.makefrontendshitagain.party/" 
+              target="_blank" 
+              rel="nofollow noopener"><img 
+                width="25" 
+                src="../assets/korea.gif" ></a>
+          </li>
+        </ul>
+      </section>
       <img 
         class="logo" 
         src="../assets/ship.gif" 
@@ -56,6 +69,12 @@ marquee {
 img {
   display: block;
   margin: auto;
+}
+
+.translations {
+  position: absolute;
+  right: 20px;
+  top: 0px;
 }
 
 .bottom {
