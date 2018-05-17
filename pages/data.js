@@ -65,5 +65,6 @@ export default [
   "https://donotpress.wezz.se/",
   "http://paulvm.com/",
   "http://pudim.com.br/",
-  "http://originalhampster.ytmnd.com/"
+  "http://originalhampster.ytmnd.com/",
+  "https://2spooky.surge.sh/"
 ]
