@@ -66,5 +66,6 @@ export default [
   "http://paulvm.com/",
   "http://pudim.com.br/",
   "http://originalhampster.ytmnd.com/",
-  "https://2spooky.surge.sh/"
+  "https://2spooky.surge.sh/",
+  "http://tacospin.com"
 ]
