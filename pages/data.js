@@ -67,5 +67,6 @@ export default [
   "http://pudim.com.br/",
   "http://originalhampster.ytmnd.com/",
   "https://2spooky.surge.sh/",
-  "http://tacospin.com"
+  "http://tacospin.com",
+  "http://www.internetfortheday.com/"
 ]
