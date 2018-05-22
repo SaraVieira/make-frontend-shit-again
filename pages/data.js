@@ -68,5 +68,6 @@ export default [
   "http://originalhampster.ytmnd.com/",
   "https://2spooky.surge.sh/",
   "http://tacospin.com",
-  "http://www.internetfortheday.com/"
+  "http://www.internetfortheday.com/",
+  "http://www.akrepnalan.com/"
 ]
