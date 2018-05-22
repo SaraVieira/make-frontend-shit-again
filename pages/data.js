@@ -69,5 +69,6 @@ export default [
   "https://2spooky.surge.sh/",
   "http://tacospin.com",
   "http://www.internetfortheday.com/",
-  "http://www.akrepnalan.com/"
+  "http://www.akrepnalan.com/",
+  "https://bxyoung89.github.io/xorberax-visualizer/"
 ]
