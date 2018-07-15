@@ -8,7 +8,7 @@ If you want to add dumb websites don't feel scared by the all the vue files, all
 
 https://makefrontendshitagain.party
 
-> It's complicated on porpuse btw, I wanted to do it in ReasonML and Graphql but didn't have time as this was done in an afternoon hackathon
+> It's complicated on purpose btw, I wanted to do it in ReasonML and Graphql but I didn't have time as this was done in an afternoon hackathon
 
 ## Build Setup
 
