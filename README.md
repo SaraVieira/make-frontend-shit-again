@@ -2,13 +2,13 @@
 
 [![Build Status](https://travis-ci.org/SaraVieira/make-frontend-shit-again.svg?branch=master)](https://travis-ci.org/SaraVieira/make-frontend-shit-again)
 
-If you want to add dumb websites don't feel scared by the all the vue files, all you need to do is add to this array: https://github.com/SaraVieira/make-frontend-shit-again/blob/master/pages/data.js
+If you want to add dumb websites don't feel scared by all the vue files, all you need to do is add to this array: https://github.com/SaraVieira/make-frontend-shit-again/blob/master/pages/data.js
 
 > Make Frontend Shit Again
 
 https://makefrontendshitagain.party
 
-> It's complicated on purpose btw, I wanted to do it in ReasonML and Graphql but I didn't have time as this was done in an afternoon hackathon
+> It's complicated on purpose btw, I wanted to do it in ReasonML and GraphQL but I didn't have time as this was done in an afternoon hackathon
 
 ## Build Setup
 
