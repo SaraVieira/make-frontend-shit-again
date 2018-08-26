@@ -70,5 +70,6 @@ export default [
   "http://tacospin.com",
   "http://www.internetfortheday.com/",
   "http://www.akrepnalan.com/",
-  "https://bxyoung89.github.io/xorberax-visualizer/"
+  "https://bxyoung89.github.io/xorberax-visualizer/",
+  "http://finger-frenzy.now.sh/"
 ]
