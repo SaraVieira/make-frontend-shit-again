@@ -4,30 +4,30 @@
     <ul>
       <li>Remember FTP ? <img 
         width="150" 
-        alt="ftp" 
+        alt="" 
         src="../assets/ftp.gif"></li>
       <li>Remember Blink ? <img 
         width="200" 
-        alt="blink" 
+        alt="" 
         src="../assets/blink.gif">
       </li>
       <li>Remember HTML ? <img 
         width="150" 
-        alt="html" 
+        alt="" 
         src="../assets/html.gif"></li>
       <li>Remember jQuery ? <img 
         width="150" 
-        alt="jqury" 
+        alt="" 
         src="../assets/jquery.gif"></li>
     </ul>
 
     <img 
       class="image4" 
-      alt="doplhin" 
+      alt="Welcome to the internet, enjoy the ride" 
       src="../assets/37.gif">
     <img 
       class="image5" 
-      alt="doplhin" 
+      alt="" 
       src="../assets/37.gif">
   </section>
 </template>
