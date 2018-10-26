@@ -4,27 +4,27 @@
       <img 
         class="logo" 
         src="../assets/dope.gif" 
-        alt="dope">
+        alt="Geocities was dope">
     </div>
     <img 
       class="image1" 
-      alt="debuggingthemind" 
+      alt="debugging the mind" 
       src="../assets/debuggingthemind.gif">
     <img 
       class="image2" 
-      alt="frontend1" 
+      alt="Computer from the 80s with rainbow glowing screen" 
       src="../assets/frontend1.gif">
     <img 
       class="image3" 
-      alt="pizzalove" 
+      alt="a planet with pizza and hearts on top" 
       src="../assets/pizzalove.gif">
     <img 
       class="image4" 
-      alt="dolphin" 
+      alt="seal with earth spinning on its nose" 
       src="../assets/dolphin.gif">
     <img 
       class="image5" 
-      alt="dolphin" 
+      alt="" 
       src="../assets/dolphin.gif">
   </section>
 </template>

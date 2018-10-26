@@ -2,27 +2,27 @@
   <section class="container">
     <img 
       class="image3" 
-      alt="christall ball" 
+      alt="crystal ball" 
       src="../assets/crysballbar.gif">
     <div>
       <img 
         class="logo" 
         src="../assets/ship2.gif" 
-        alt="spaceship">
+        alt="spinning spaceship">
       <h1 class="subtitle ">
         <img 
           class="fun" 
           src="../assets/fun.gif" 
-          alt="fun">
+          alt="Remember when frontend was fun?">
       </h1>
     </div>
     <img 
       class="image4" 
-      alt="hotdog" 
+      alt="hotdog swinging a baseball bat" 
       src="../assets/hotdog.gif">
     <img 
       class="image5" 
-      alt="hotdog" 
+      alt="" 
       src="../assets/hotdog.gif">
   </section>
 </template>
