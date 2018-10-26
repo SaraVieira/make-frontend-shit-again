@@ -1,13 +1,13 @@
 <template>
   <section class="container">
     <h1>
-      We used to make websites because it was fun and at a point we lost the way.
+      We used to make websites because it was fun but at some point, we lost the way.
       <br> We need to make dumb shit! Make useless stuff; make the web fun again!
     </h1>
     <div>
       <img 
         src="../assets/10.gif" 
-        alt="heart">
+        alt="spinning heart exclamation emoji">
       <p>Website made by
       <a href="https://twitter.com/NikkitaFTW ">Sara Vieira</a> at a Hackathon </p>
       <p>Source code at
@@ -17,16 +17,16 @@
     <section class="badges">
       <img 
         src="../assets/valid-html40.png" 
-        alt="valid html">
+        alt="w3c valid html">
       <img 
         src="../assets/w3c-css.gif" 
-        alt="valid css">
+        alt="w3c valid css">
       <a 
         rel="nofollow noopener" 
         href="http://www.oldversion.com/windows/netscape-3-04" 
         target="_blank"><img 
           src="../assets/netscape.gif" 
-          alt="netscape"></a>
+          alt="This page is best viewed with Netscape now!"></a>
     </section>
     <div class="bottom " />
     <div class="top bottom " />
