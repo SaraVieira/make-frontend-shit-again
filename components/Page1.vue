@@ -10,18 +10,19 @@
               target="_blank" 
               rel="nofollow noopener"><img 
                 width="25" 
-                src="../assets/korea.gif" ></a>
+                src="../assets/korea.gif"
+                alt=""></a>
           </li>
         </ul>
       </section>
       <img 
         class="logo" 
         src="../assets/ship.gif" 
-        alt="spaceship">
+        alt="spaceship revolving around the moon">
       <h1 class="subtitle ">
         <img 
           src="../assets/make.gif" 
-          alt="spaceship">
+          alt="Make frontend shit again">
       </h1>
       <section>
         <marquee behavior="alternate">
@@ -29,7 +30,7 @@
         </marquee>
         <img 
           width="30" 
-          alt="scroll" 
+          alt="" 
           src="../assets/scroll-down_blinking.gif">
       </section>
 
@@ -43,7 +44,7 @@
           width="125" 
           src="http://www.cutercounter.com/hit.php?id=10190&nd=6&style=10" 
           border="0" 
-          alt="free counter"></a>
+          alt="1545013"></a>
       <img 
         src="../assets/baby.gif" 
         alt="baby dancing">
