@@ -5,28 +5,28 @@
       <li>
         {{ $t('home.ftp') }} <img
           width="150"
-          alt=""
+          :alt="$t('alt.ftp')"
           src="../assets/ftp.gif"
         >
       </li>
       <li>
         {{ $t('home.blink') }} <img
           width="200"
-          alt=""
+          :alt="$t('alt.blink')"
           src="../assets/blink.gif"
         >
       </li>
       <li>
         {{ $t('home.html') }} <img
           width="150"
-          alt=""
+          :alt="$t('alt.html')"
           src="../assets/html.gif"
         >
       </li>
       <li>
         {{ $t('home.jquery') }} <img
           width="150"
-          alt=""
+          :alt="$t('alt.jquery')"
           src="../assets/jquery.gif"
         >
       </li>
@@ -34,12 +34,12 @@
 
     <img
       class="image4"
-      alt="Welcome to the internet, enjoy the ride"
+      :alt="$t('alt.welcome')"
       src="../assets/37.gif"
     >
     <img
       class="image5"
-      alt=""
+      :alt="$t('alt.welcome')"
       src="../assets/37.gif"
     >
   </section>

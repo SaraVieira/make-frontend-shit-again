@@ -33,7 +33,7 @@ module.exports = {
   },
   plugins: ["~/plugins/i18n.js"],
   generate: {
-    routes: ["/", "/jp"]
+    routes: ["/", "/pt"]
   },
   build: {
     /*

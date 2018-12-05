@@ -1,31 +1,37 @@
 <template>
   <section class="container">
     <div>
-      <img 
-        class="logo" 
-        src="../assets/dope.gif" 
-        alt="Geocities was dope">
+      <img
+        class="logo"
+        src="../assets/dope.gif"
+        :alt="$t('alt.geocities')"
+      >
     </div>
-    <img 
-      class="image1" 
-      alt="debugging the mind" 
-      src="../assets/debuggingthemind.gif">
-    <img 
-      class="image2" 
-      alt="Computer from the 80s with rainbow glowing screen" 
-      src="../assets/frontend1.gif">
-    <img 
-      class="image3" 
-      alt="a planet with pizza and hearts on top" 
-      src="../assets/pizzalove.gif">
-    <img 
-      class="image4" 
-      alt="seal with earth spinning on its nose" 
-      src="../assets/dolphin.gif">
-    <img 
-      class="image5" 
-      alt="" 
-      src="../assets/dolphin.gif">
+    <img
+      class="image1"
+      :alt="$t('alt.debugging')"
+      src="../assets/debuggingthemind.gif"
+    >
+    <img
+      class="image2"
+      :alt="$t('alt.debugging')"
+      src="../assets/frontend1.gif"
+    >
+    <img
+      class="image3"
+      :alt="$t('alt.planet')"
+      src="../assets/pizzalove.gif"
+    >
+    <img
+      class="image4"
+      :alt="$t('alt.seal')"
+      src="../assets/dolphin.gif"
+    >
+    <img
+      class="image5"
+      :alt="$t('alt.seal')"
+      src="../assets/dolphin.gif"
+    >
   </section>
 </template>
 

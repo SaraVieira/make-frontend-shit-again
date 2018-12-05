@@ -31,17 +31,17 @@
       <img
         class="logo"
         src="../assets/ship.gif"
-        alt="spaceship revolving around the moon"
+        :alt="$t('alt.spaceship')"
       >
       <h1 class="subtitle ">
         <img
           src="../assets/make.gif"
-          alt="Make frontend shit again"
+          :alt="$t('alt.shit-again')"
         >
       </h1>
       <section>
         <Marquee behavior="alternate">
-          &#x3C; {{ $t('home.scrollDown') }} &#x3E;
+          &#x3C; {{ $t('home.scroll-down') }} &#x3E;
         </Marquee>
         <img
           width="30"
@@ -67,7 +67,7 @@
       </a>
       <img
         src="../assets/baby.gif"
-        alt="baby dancing"
+        :alt="$t('alt.baby')"
       >
     </div>
     <div class="bottom" />

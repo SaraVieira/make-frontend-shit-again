@@ -2,31 +2,31 @@
   <section class="container">
     <img
       class="image3"
-      alt="crystal ball"
+      :alt="$t('alt.crystal')"
       src="../assets/crysballbar.gif"
     >
     <div>
       <img
         class="logo"
         src="../assets/ship2.gif"
-        alt="spinning spaceship"
+        :alt="$t('alt.spinning-spaceship')"
       >
       <h1 class="subtitle ">
         <img
           class="fun"
           src="../assets/fun.gif"
-          alt="Remember when frontend was fun?"
+          :alt="$t('alt.fun')"
         >
       </h1>
     </div>
     <img
       class="image4"
-      alt="hotdog swinging a baseball bat"
+      :alt="$t('alt.hotdog')"
       src="../assets/hotdog.gif"
     >
     <img
       class="image5"
-      alt=""
+      :alt="$t('alt.hotdog')"
       src="../assets/hotdog.gif"
     >
   </section>

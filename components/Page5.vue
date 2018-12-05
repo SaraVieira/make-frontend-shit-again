@@ -7,12 +7,12 @@
     <div>
       <img
         src="../assets/10.gif"
-        alt="spinning heart exclamation emoji"
+        :alt="$t('alt.heart')"
       >
       <p>
         {{ $t('home.website-made') }}
         <a href="https://twitter.com/NikkitaFTW ">
-          Sara Vieira
+          {{ $t('home.name') }}
         </a>{{ $t('home.at-hackaton') }}
       </p>
       <p>
@@ -25,11 +25,11 @@
     <section class="badges">
       <img
         src="../assets/valid-html40.png"
-        alt="w3c valid html"
+        :alt="$t('alt.valid-html')"
       >
       <img
         src="../assets/w3c-css.gif"
-        alt="w3c valid css"
+        :alt="$t('alt.css')"
       >
       <a
         rel="nofollow noopener"
@@ -38,7 +38,7 @@
       >
         <img
           src="../assets/netscape.gif"
-          alt="This page is best viewed with Netscape now!"
+          :alt="$t('alt.netscape')"
         >
       </a>
     </section>
