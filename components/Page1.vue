@@ -5,15 +5,33 @@
         <h2>{{ $t('home.translations') }}</h2>
         <ul>
           <li>
-            <!-- <NuxtLink
-              v-if="$i18n.locale === 'en'"
-              :to="`/fr` + $route.fullPath"
-              class="Header__Link"
-              active-class="none"
+            <NuxtLink
+              to="/pt"
+              active-class="
+              none"
               exact
             >
-              {{ $t('links.french') }}
-            </NuxtLink> -->
+              <img
+                width="25"
+                src="../assets/portugal.gif"
+                alt=""
+              >
+            </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink
+              :to="$i18n.path('')"
+              class="Header__Link"
+              exact
+            >
+              <img
+                width="25"
+                src="../assets/usa.gif"
+                alt=""
+              >
+            </NuxtLink>
+          </li>
+          <li>
             <a
               href="https://kr.makefrontendshitagain.party/"
               target="_blank"
@@ -84,6 +102,14 @@ marquee {
   display: block;
   font-size: 1.5em;
   font-weight: bold;
+}
+
+ul {
+  display: flex;
+}
+
+ul li:not(:last-child) {
+  margin-right: 10px;
 }
 
 .counter {

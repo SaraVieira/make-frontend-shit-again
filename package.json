@@ -31,7 +31,7 @@
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "styled-components": "^4.1.2",
-    "vue-i18n": "^8.4.0"
+    "vue-i18n": "^7.8.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
