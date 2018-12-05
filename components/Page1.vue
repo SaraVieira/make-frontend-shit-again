@@ -2,52 +2,73 @@
   <section>
     <div>
       <section class="translations">
-        <h2>Translations</h2>
+        <h2>{{ $t('home.translations') }}</h2>
         <ul>
           <li>
-            <a 
-              href="https://kr.makefrontendshitagain.party/" 
-              target="_blank" 
-              rel="nofollow noopener"><img 
-                width="25" 
+            <!-- <NuxtLink
+              v-if="$i18n.locale === 'en'"
+              :to="`/fr` + $route.fullPath"
+              class="Header__Link"
+              active-class="none"
+              exact
+            >
+              {{ $t('links.french') }}
+            </NuxtLink> -->
+            <a
+              href="https://kr.makefrontendshitagain.party/"
+              target="_blank"
+              rel="nofollow noopener"
+            >
+              <img
+                width="25"
                 src="../assets/korea.gif"
-                alt=""></a>
+                alt=""
+              >
+            </a>
           </li>
         </ul>
       </section>
-      <img 
-        class="logo" 
-        src="../assets/ship.gif" 
-        alt="spaceship revolving around the moon">
+      <img
+        class="logo"
+        src="../assets/ship.gif"
+        alt="spaceship revolving around the moon"
+      >
       <h1 class="subtitle ">
-        <img 
-          src="../assets/make.gif" 
-          alt="Make frontend shit again">
+        <img
+          src="../assets/make.gif"
+          alt="Make frontend shit again"
+        >
       </h1>
       <section>
-        <marquee behavior="alternate">
-          &#x3C; Scroll down for awesomness | Scroll down for awesomness &#x3E;
-        </marquee>
-        <img 
-          width="30" 
-          alt="" 
-          src="../assets/scroll-down_blinking.gif">
+        <Marquee behavior="alternate">
+          &#x3C; {{ $t('home.scrollDown') }} &#x3E;
+        </Marquee>
+        <img
+          width="30"
+          alt=""
+          src="../assets/scroll-down_blinking.gif"
+        >
       </section>
 
       <h2 class="counter">
-        You are user:
+        {{ $t('home.user') }}
       </h2>
-      <a 
-        href="http://www.cutercounter.com/" 
-        target="_blank" 
-        rel="nofollow noopener"><img 
-          width="125" 
-          src="http://www.cutercounter.com/hit.php?id=10190&nd=6&style=10" 
-          border="0" 
-          alt="1545013"></a>
-      <img 
-        src="../assets/baby.gif" 
-        alt="baby dancing">
+      <a
+        href="http://www.cutercounter.com/"
+        target="_blank"
+        rel="nofollow noopener"
+      >
+        <img
+          width="125"
+          src="http://www.cutercounter.com/hit.php?id=10190&nd=6&style=10"
+          border="0"
+          alt="1545013"
+        >
+      </a>
+      <img
+        src="../assets/baby.gif"
+        alt="baby dancing"
+      >
     </div>
     <div class="bottom" />
   </section>

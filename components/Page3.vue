@@ -2,45 +2,48 @@
   <section class="container">
     <div class="top" />
     <ul>
-      <li>Remember FTP ? <img 
-        width="150" 
-        alt="" 
-        src="../assets/ftp.gif"></li>
-      <li>Remember Blink ? <img 
-        width="200" 
-        alt="" 
-        src="../assets/blink.gif">
+      <li>
+        {{ $t('home.ftp') }} <img
+          width="150"
+          alt=""
+          src="../assets/ftp.gif"
+        >
       </li>
-      <li>Remember HTML ? <img 
-        width="150" 
-        alt="" 
-        src="../assets/html.gif"></li>
-      <li>Remember jQuery ? <img 
-        width="150" 
-        alt="" 
-        src="../assets/jquery.gif"></li>
+      <li>
+        {{ $t('home.blink') }} <img
+          width="200"
+          alt=""
+          src="../assets/blink.gif"
+        >
+      </li>
+      <li>
+        {{ $t('home.html') }} <img
+          width="150"
+          alt=""
+          src="../assets/html.gif"
+        >
+      </li>
+      <li>
+        {{ $t('home.jquery') }} <img
+          width="150"
+          alt=""
+          src="../assets/jquery.gif"
+        >
+      </li>
     </ul>
 
-    <img 
-      class="image4" 
-      alt="Welcome to the internet, enjoy the ride" 
-      src="../assets/37.gif">
-    <img 
-      class="image5" 
-      alt="" 
-      src="../assets/37.gif">
+    <img
+      class="image4"
+      alt="Welcome to the internet, enjoy the ride"
+      src="../assets/37.gif"
+    >
+    <img
+      class="image5"
+      alt=""
+      src="../assets/37.gif"
+    >
   </section>
 </template>
-
-<script>
-import Page2 from "~/components/Page2.vue"
-
-export default {
-  components: {
-    Page2
-  }
-}
-</script>
 
 <style scoped lang="scss">
 .container {

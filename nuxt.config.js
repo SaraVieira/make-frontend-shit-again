@@ -28,9 +28,13 @@ module.exports = {
       }
     ]
   ],
-  /*
-  ** Build configuration
-  */
+  router: {
+    middleware: "i18n"
+  },
+  plugins: ["~/plugins/i18n.js"],
+  generate: {
+    routes: ["/", "/jp"]
+  },
   build: {
     /*
     ** Run ESLint on save

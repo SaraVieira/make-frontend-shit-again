@@ -1,12 +1,13 @@
 <template>
   <div>
     <audio
-      src="https://music-shitty-fe.now.sh" 
-      autoplay 
-      controls 
-      preload="auto" />
+      src="https://music-shitty-fe.now.sh"
+      autoplay
+      controls
+      preload="auto"
+    />
     <section class="container">
-      <Page1/>
+      <Page1 />
     </section>
     <section class="container">
       <Page2 />
@@ -18,18 +19,22 @@
       <Page4 />
     </section>
     <h1 class="center subtitle">
-      Inspiration Websites:
+      {{ $t('home.inspiration') }}
     </h1>
     <section class="container">
-      <a 
-        v-for="website in data" 
-        :key="website.title" 
-        :href="website.url" 
-        target="_blank" 
-        rel="nofollow noopener"><img 
-          :src="website.image || website.logo" 
-          :alt="website.title || 'Awesome'" 
-          class="website"></a>
+      <a
+        v-for="website in data"
+        :key="website.title"
+        :href="website.url"
+        target="_blank"
+        rel="nofollow noopener"
+      >
+        <img
+          :src="website.image || website.logo"
+          :alt="website.title || 'Awesome'"
+          class="website"
+        >
+      </a>
     </section>
     <section class="container">
       <Page5 />
