@@ -1,0 +1,42 @@
+{
+  "home": {
+    "translations": "Traducciones",
+    "scroll-down": "Haz scroll para fliparlo | Haz scroll para fliparlo",
+    "user": "Eres el usuario:",
+    "ftp": "Recuerdas FTP ?",
+    "blink": "Recuerdas el parpadeo ?",
+    "html": "Recuerdas HTML ?",
+    "jquery": "Recuerdas jQuery ?",
+    "inspiration": "Páginas que nos inspiran:",
+    "make-websites": "Solíamos hacer páginas web porque era divertido pero en algún momento, perdimos el rumbo.",
+    "fun-again": "¡Necesitamos hacer mierdas! ¡Hacer cosas inservibles; hacer internet divertido otra vez!",
+    "website-made": "Página Web hecha por",
+    "name": "Sara Vieira",
+    "at-hackaton": "en un Hackathon",
+    "code-at": "Código en",
+    "gh": "Github"
+  },
+  "alt": {
+    "shit-again": "Haz el frontend mierdero otra vez",
+    "spaceship": "Nave espacial girando sobre la luna",
+    "baby": "bebé bailando",
+    "crystal": "bola de cristal",
+    "spinning-spaceship": "Nave espacial giratoria",
+    "fun": "Recuerdas cuando el frontend era divertido?",
+    "hotdog": "Perrito caliente moviendose en un bate de béisbol",
+    "ftp": "ftp",
+    "blink": "parpadeo",
+    "html": "html",
+    "jquery": "jquery",
+    "welcome": "Bienvenido a internet, disfruta del viaje",
+    "geocities": "Geocities era droga",
+    "debugging": "depurando la mente",
+    "computer": "Ordenador de los 80 con un arcoiris brillante",
+    "planet": "un planeta con pizza y corazones encima",
+    "seal": "foca con una tierra girando en su nariz",
+    "heart": "emoji de corazon girando con forma de exclamación",
+    "valid-html": "w3c html válido",
+    "css": "w3c css válido",
+    "netscape": "Ésta página se ve mejor en Netscape ahora!"
+  }
+}
