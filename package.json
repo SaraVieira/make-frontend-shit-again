@@ -11,7 +11,6 @@
     "generate": "nuxt generate",
     "test": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "posttest": "npm run format",
-    "precommit": "lint-staged",
     "format": "prettier --write '**/*.{js,css,md}'"
   },
   "dependencies": {
