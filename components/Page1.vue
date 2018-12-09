@@ -14,7 +14,7 @@
               <img
                 width="25"
                 src="../assets/portugal.gif"
-                alt=""
+                alt
               >
             </nuxt-link>
           </li>
@@ -27,7 +27,7 @@
               <img
                 width="25"
                 src="../assets/russia.gif"
-                alt=""
+                alt
               >
             </nuxt-link>
           </li>
@@ -40,7 +40,7 @@
               <img
                 width="25"
                 src="../assets/usa.gif"
-                alt=""
+                alt
               >
             </nuxt-link>
           </li>
@@ -53,9 +53,22 @@
               <img
                 width="25"
                 src="../assets/korea.gif"
-                alt=""
+                alt
               >
             </a>
+          </li>
+          <li>
+            <nuxt-link
+              to="/es"
+              class="Header__Link"
+              exact
+            >
+              <img
+                width="25"
+                src="../assets/spain.gif"
+                alt
+              >
+            </nuxt-link>
           </li>
         </ul>
       </section>
@@ -64,26 +77,22 @@
         src="../assets/ship.gif"
         :alt="$t('alt.spaceship')"
       >
-      <h1 class="subtitle ">
+      <h1 class="subtitle">
         <img
           src="../assets/make.gif"
           :alt="$t('alt.shit-again')"
         >
       </h1>
       <section>
-        <Marquee behavior="alternate">
-          &#x3C; {{ $t('home.scroll-down') }} &#x3E;
-        </Marquee>
+        <Marquee behavior="alternate">&#x3C; {{ $t('home.scroll-down') }} &#x3E;</Marquee>
         <img
           width="30"
-          alt=""
+          alt
           src="../assets/scroll-down_blinking.gif"
         >
       </section>
 
-      <h2 class="counter">
-        {{ $t('home.user') }}
-      </h2>
+      <h2 class="counter">{{ $t('home.user') }}</h2>
       <a
         href="http://www.cutercounter.com/"
         target="_blank"
@@ -101,7 +110,7 @@
         :alt="$t('alt.baby')"
       >
     </div>
-    <div class="bottom" />
+    <div class="bottom"/>
   </section>
 </template>
 
