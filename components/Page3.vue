@@ -2,48 +2,45 @@
   <section class="container">
     <div class="top" />
     <ul>
-      <li>
-        {{ $t('home.ftp') }} <img
-          width="150"
-          :alt="$t('alt.ftp')"
-          src="../assets/ftp.gif"
-        >
+      <li>FTP를(을) 기억하시나요? <img 
+        width="150" 
+        alt="ftp" 
+        src="../assets/ftp.gif"></li>
+      <li>Blink를(을) 기억하시나요? <img 
+        width="200" 
+        alt="blink" 
+        src="../assets/blink.gif">
       </li>
-      <li>
-        {{ $t('home.blink') }} <img
-          width="200"
-          :alt="$t('alt.blink')"
-          src="../assets/blink.gif"
-        >
-      </li>
-      <li>
-        {{ $t('home.html') }} <img
-          width="150"
-          :alt="$t('alt.html')"
-          src="../assets/html.gif"
-        >
-      </li>
-      <li>
-        {{ $t('home.jquery') }} <img
-          width="150"
-          :alt="$t('alt.jquery')"
-          src="../assets/jquery.gif"
-        >
-      </li>
+      <li>HTML를(을) 기억하시나요? <img 
+        width="150" 
+        alt="html" 
+        src="../assets/html.gif"></li>
+      <li>jQuery를(을) 기억하시나요? <img 
+        width="150" 
+        alt="jqury" 
+        src="../assets/jquery.gif"></li>
     </ul>
 
-    <img
-      class="image4"
-      :alt="$t('alt.welcome')"
-      src="../assets/37.gif"
-    >
-    <img
-      class="image5"
-      :alt="$t('alt.welcome')"
-      src="../assets/37.gif"
-    >
+    <img 
+      class="image4" 
+      alt="doplhin" 
+      src="../assets/37.gif">
+    <img 
+      class="image5" 
+      alt="doplhin" 
+      src="../assets/37.gif">
   </section>
 </template>
+
+<script>
+import Page2 from "~/components/Page2.vue"
+
+export default {
+  components: {
+    Page2
+  }
+}
+</script>
 
 <style scoped lang="scss">
 .container {

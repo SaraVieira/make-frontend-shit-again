@@ -1,34 +1,29 @@
 <template>
   <section class="container">
-    <img
-      class="image3"
-      :alt="$t('alt.crystal')"
-      src="../assets/crysballbar.gif"
-    >
+    <img 
+      class="image3" 
+      alt="christall ball" 
+      src="../assets/crysballbar.gif">
     <div>
-      <img
-        class="logo"
-        src="../assets/ship2.gif"
-        :alt="$t('alt.spinning-spaceship')"
-      >
+      <img 
+        class="logo" 
+        src="../assets/ship2.gif" 
+        alt="spaceship">
       <h1 class="subtitle ">
-        <img
-          class="fun"
-          src="../assets/fun.gif"
-          :alt="$t('alt.fun')"
-        >
+        <img 
+          class="fun" 
+          src="../assets/fun.gif" 
+          alt="fun">
       </h1>
     </div>
-    <img
-      class="image4"
-      :alt="$t('alt.hotdog')"
-      src="../assets/hotdog.gif"
-    >
-    <img
-      class="image5"
-      :alt="$t('alt.hotdog')"
-      src="../assets/hotdog.gif"
-    >
+    <img 
+      class="image4" 
+      alt="hotdog" 
+      src="../assets/hotdog.gif">
+    <img 
+      class="image5" 
+      alt="hotdog" 
+      src="../assets/hotdog.gif">
   </section>
 </template>
 

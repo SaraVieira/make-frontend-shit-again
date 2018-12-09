@@ -60,17 +60,5 @@ export default [
   "https://hem.larsemil.se/",
   "http://rayps.com/",
   "http://akrepnalan.com/",
-  "https://wesley.so/archive/1999/",
-  "http://terrorpigeon.us/",
-  "https://donotpress.wezz.se/",
-  "http://paulvm.com/",
-  "http://pudim.com.br/",
-  "http://originalhampster.ytmnd.com/",
-  "https://2spooky.surge.sh/",
-  "http://tacospin.com",
-  "http://www.internetfortheday.com/",
-  "http://www.akrepnalan.com/",
-  "https://bxyoung89.github.io/xorberax-visualizer/",
-  "http://finger-frenzy.now.sh/",
-  "https://turbo.fish/"
+  "https://wesley.so/archive/1999/"
 ]

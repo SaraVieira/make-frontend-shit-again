@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nuxt />
+    <nuxt/>
   </div>
 </template>
 
@@ -9,15 +9,16 @@ export default {
   mounted() {
     document.addEventListener("contextmenu", event => {
       event.preventDefault()
-      alert("Right click is disabled!!!")
+      alert("우클릭은 금지되어 있습니다!!!")
     })
   }
 }
 </script>
 
 <style>
+@import url("../fonts/unvada.css");
 html {
-  font-family: "Caveat", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+  font-family: "Unvada", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   color: white;
   background-image: url("../assets/bg.png");
@@ -29,16 +30,6 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   cursor: url("../assets/cursor.gif"), auto;
-}
-
-img {
-  user-select: none;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 *,
