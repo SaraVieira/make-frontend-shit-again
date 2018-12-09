@@ -14,12 +14,6 @@
     "precommit": "lint-staged",
     "format": "prettier --write '**/*.{js,css,md}'"
   },
-  "lint-staged": {
-    "*.{js,vue}": [
-      "eslint --fix",
-      "git add"
-    ]
-  },
   "dependencies": {
     "@nuxtjs/google-analytics": "^2.0.2",
     "axios": "^0.18.0",
