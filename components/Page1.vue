@@ -20,6 +20,19 @@
           </li>
           <li>
             <nuxt-link
+              to="/ru"
+              class="Header__Link"
+              exact
+            >
+              <img
+                width="25"
+                src="../assets/russia.gif"
+                alt=""
+              >
+            </nuxt-link>
+          </li>
+          <li>
+            <nuxt-link
               to="/"
               class="Header__Link"
               exact
