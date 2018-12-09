@@ -20,7 +20,7 @@
           </li>
           <li>
             <nuxt-link
-              :to="$i18n.path('')"
+              to="/"
               class="Header__Link"
               exact
             >
