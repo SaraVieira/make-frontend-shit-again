@@ -70,6 +70,19 @@
               >
             </nuxt-link>
           </li>
+          <li>
+            <nuxt-link
+              to="/fr"
+              class="Header__Link"
+              exact
+            >
+              <img
+                width="25"
+                src="../assets/france.gif"
+                alt
+              >
+            </nuxt-link>
+          </li>
         </ul>
       </section>
       <img
@@ -110,7 +123,7 @@
         :alt="$t('alt.baby')"
       >
     </div>
-    <div class="bottom"/>
+    <div class="bottom" />
   </section>
 </template>
 
