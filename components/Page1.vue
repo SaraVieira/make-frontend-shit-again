@@ -5,7 +5,7 @@
         <h2>{{ $t('home.translations') }}</h2>
         <ul>
           <li>
-            <NuxtLink
+            <nuxt-link
               to="/pt"
               active-class="
               none"
@@ -16,10 +16,10 @@
                 src="../assets/portugal.gif"
                 alt=""
               >
-            </NuxtLink>
+            </nuxt-link>
           </li>
           <li>
-            <NuxtLink
+            <nuxt-link
               :to="$i18n.path('')"
               class="Header__Link"
               exact
@@ -29,7 +29,7 @@
                 src="../assets/usa.gif"
                 alt=""
               >
-            </NuxtLink>
+            </nuxt-link>
           </li>
           <li>
             <a
