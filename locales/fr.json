@@ -1,0 +1,42 @@
+{
+  "home": {
+    "translations": "Traductions",
+    "scroll-down": "Scroll down for awesomness | Scroll down for awesomness",
+    "user": "Utilisateur numéro ",
+    "ftp": "Vous souvenez-vous de FTP ?",
+    "blink": "Vous souvenez-vous de Blink ?",
+    "html": "Vous souvenez-vous de HTML ?",
+    "jquery": "Vous souvenez-vous de jQuery ?",
+    "inspiration": "Sources d'inspiration",
+    "make-websites": "Avant, on créait des sites justes pour le fun, mais ça c'était avant.",
+    "fun-again": "Créons des sites à la con, de l'inutile, rendons au web son coté fun!",
+    "website-made": "Site créé par",
+    "name": "Sara Vieira",
+    "at-hackaton": "lors d'un Hackathon",
+    "code-at": "Code source dispo sur",
+    "gh": "Github"
+  },
+  "alt": {
+    "shit-again": "Make frontend shit again",
+    "spaceship": "spaceship revolving around the moon",
+    "baby": "baby dancing",
+    "crystal": "crystal ball",
+    "spinning-spaceship": "spinning spaceship",
+    "fun": "Remember when frontend was fun?",
+    "hotdog": "hotdog swinging a baseball bat",
+    "ftp": "ftp",
+    "blink": "blink",
+    "html": "html",
+    "jquery": "jquery",
+    "welcome": "Welcome to the internet, enjoy the ride",
+    "geocities": "Geocities was dope",
+    "debugging": "debugging the mind",
+    "computer": "Computer from the 80s with rainbow glowing screen",
+    "planet": "a planet with pizza and hearts on top",
+    "seal": "seal with earth spinning on its nose",
+    "heart": "spinning heart exclamation emoji",
+    "valid-html": "w3c valid html",
+    "css": "w3c valid css",
+    "netscape": "This page is best viewed with Netscape now!"
+  }
+}
