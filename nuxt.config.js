@@ -13,7 +13,13 @@ module.exports = {
         content: "Make Frontend Shit Again"
       }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    link: [
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css?family=Caveat"
+      },
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
+    ]
   },
   /*
   ** Customize the progress bar color

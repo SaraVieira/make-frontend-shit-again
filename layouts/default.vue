@@ -16,7 +16,6 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css?family=Caveat");
 html {
   font-family: "Caveat", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
