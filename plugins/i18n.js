@@ -14,7 +14,8 @@ export default ({ app, store }) => {
       es: require("~/locales/es.json"),
       fr: require("~/locales/fr.json"),
       pt: require("~/locales/pt.json"),
-      ru: require("~/locales/ru.json")
+      ru: require("~/locales/ru.json"),
+      ua: require("~/locales/ua.json")
     }
   })
 
