@@ -5,7 +5,6 @@ export default function(props) {
   if (isHMR) return
   // Get locale from params
   const locale = route.path.split("/")[1] || defaultLocale
-  console.log(locale, store.state.locales.indexOf(locale))
   if (store.state.locales.indexOf(locale) === -1) {
     return error({ message: "This page could not be found.", statusCode: 404 })
   }

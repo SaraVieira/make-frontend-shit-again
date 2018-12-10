@@ -6,6 +6,7 @@
     "parser": "babel-eslint"
   },
   "rules": {
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "vue/component-name-in-template-casing": 0
   }
 }

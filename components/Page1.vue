@@ -83,6 +83,19 @@
               >
             </nuxt-link>
           </li>
+          <li>
+            <nuxt-link
+              to="/ua"
+              class="Header__Link"
+              exact
+            >
+              <img
+                width="25"
+                src="../assets/ukraine.gif"
+                alt
+              >
+            </nuxt-link>
+          </li>
         </ul>
       </section>
       <img
@@ -97,7 +110,9 @@
         >
       </h1>
       <section>
-        <Marquee behavior="alternate">&#x3C; {{ $t('home.scroll-down') }} &#x3E;</Marquee>
+        <Marquee behavior="alternate">
+          &#x3C; {{ $t('home.scroll-down') }} &#x3E;
+        </Marquee>
         <img
           width="30"
           alt
@@ -105,7 +120,9 @@
         >
       </section>
 
-      <h2 class="counter">{{ $t('home.user') }}</h2>
+      <h2 class="counter">
+        {{ $t('home.user') }}
+      </h2>
       <a
         href="http://www.cutercounter.com/"
         target="_blank"
