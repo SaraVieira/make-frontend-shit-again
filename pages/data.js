@@ -72,5 +72,6 @@ export default [
   "http://www.akrepnalan.com/",
   "https://bxyoung89.github.io/xorberax-visualizer/",
   "http://finger-frenzy.now.sh/",
-  "https://turbo.fish/"
+  "https://turbo.fish/",
+  "http://www.fntb.ru/"
 ]
