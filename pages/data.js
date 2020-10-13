@@ -73,5 +73,6 @@ export default [
   "https://bxyoung89.github.io/xorberax-visualizer/",
   "http://finger-frenzy.now.sh/",
   "https://turbo.fish/",
-  "https://poolside.fm/"
+  "https://poolside.fm/",
+  "https://pointerpointer.com",
 ]
