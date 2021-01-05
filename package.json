@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@nuxtjs/google-analytics": "^2.0.2",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "core-js": "^2.6.0",
     "dom101": "^2.2.1",
     "eslint-plugin-prettier": "^3.0.0",
