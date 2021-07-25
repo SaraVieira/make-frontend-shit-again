@@ -1,0 +1,42 @@
+{
+  "home": {
+    "translations": "번역",
+    "scroll-down": "아래로 스크롤해서 더 굉장한 것들을 만나보세요 | 아래로 스크롤해서 더 굉장한 것들을 만나보세요",
+    "user": "당신의 방문순서:",
+    "ftp": "FTP를 기억하시나요 ?",
+    "blink": "Blink를 기억하시나요 ?",
+    "html": "HTML을 기억하시나요 ?",
+    "jquery": "jQuery를 기억하시나요 ?",
+    "inspiration": "영감을 주는 웹사이트:",
+    "make-websites": "우리는 재밌게 웹사이트를 만들곤 했지만 언젠가 우리는 길을 잃었습니다.",
+    "fun-again": "우리는 말문이 막힐정도의 X을 만들 필요가 있습니다! 쓸데없는 것을 만듭시다; 웹을 다시 재밌게 만들어봐요!",
+    "website-made": "Website made by",
+    "name": "Sara Vieira",
+    "at-hackaton": "at a Hackathon",
+    "code-at": "Source code at",
+    "gh": "Github"
+  },
+  "alt": {
+    "shit-again": "프론트엔드를 다시 X으로 만들자",
+    "spaceship": "달 주위를 회전하는 우주선",
+    "baby": "아기 댄스",
+    "crystal": "크리스탈 공",
+    "spinning-spaceship": "spinning spaceship",
+    "fun": "프론트엔드가 재미있을 때가 언제인지 기억하시나요?",
+    "hotdog": "야구방망이를 흔드는 핫도그",
+    "ftp": "ftp",
+    "blink": "blink",
+    "html": "html",
+    "jquery": "jquery",
+    "welcome": "인터넷에 오신 것을 환영합니다, 그냥 편히 즐기세요.",
+    "geocities": "지오시티는 마약이었다",
+    "debugging": "마음으로 디버깅하자",
+    "computer": "무지개처럼 빛나는 화면의 80년대의 컴퓨터",
+    "planet": "피자와 하트 위에 행성",
+    "seal": "코에 지구를 돌리고 있는 물개",
+    "heart": "돌아가는 하트와 느낌표 이모티콘",
+    "valid-html": "w3c를 따르는 html",
+    "css": "w3c를 따르는 css",
+    "netscape": "이 페이지는 지금 Netscape로 가장 잘 보입니다!"
+  }
+}

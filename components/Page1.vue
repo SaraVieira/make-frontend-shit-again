@@ -45,17 +45,17 @@
             </nuxt-link>
           </li>
           <li>
-            <a
-              href="https://kr.makefrontendshitagain.party/"
-              target="_blank"
-              rel="nofollow noopener"
+            <nuxt-link
+              to="/kr"
+              class="Header__Link"
+              exact
             >
               <img
                 width="25"
                 src="../assets/korea.gif"
                 alt
               >
-            </a>
+            </nuxt-link>
           </li>
           <li>
             <nuxt-link
