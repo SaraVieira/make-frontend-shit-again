@@ -19,22 +19,14 @@
       <Page4 />
     </section>
     <h1 class="center subtitle">
-      {{ $t('home.inspiration') }}
+      {{ $t("home.inspiration") }}
     </h1>
-    <section class="container">
-      <a
-        v-for="website in data"
-        :key="website.title"
-        :href="website.url"
-        target="_blank"
-        rel="nofollow noopener"
-      >
-        <img
-          :src="website.image || website.logo"
-          :alt="website.title || 'Awesome'"
-          class="website"
-        >
-      </a>
+    <section class="container websites">
+      <div v-for="website in data" :key="website.url">
+        <a :href="website.url" target="_blank" rel="nofollow noopener">
+          {{ website.name }}
+        </a>
+      </div>
     </section>
     <section class="container">
       <Page5 />
@@ -57,22 +49,23 @@ export default {
     Page2,
     Page3,
     Page4,
-    Page5
+    Page5,
   },
   data() {
     return {
       websites,
-      data: []
+      data: [],
     }
   },
   mounted() {
     document.querySelector("audio").play()
-    this.websites.forEach(website => {
-      axios(`https://api.makefrontendshitagain.party/?url=${website}`).then(
-        rsp => this.data.push(rsp.data)
-      )
+    this.websites.forEach((website) => {
+      this.data.push({
+        url: website,
+        name: website.replace(/^https?\:\/\//i, "").split("/")[0],
+      })
     })
-  }
+  },
 }
 </script>
 
@@ -81,30 +74,25 @@ audio {
   position: absolute;
   z-index: 10;
 }
-.website {
-  text-align: center;
-  width: 150px;
-  height: 150px;
-  display: block;
-  position: relative;
 
-  &:after {
-    content: attr(alt);
-    font-size: 16px;
-    color: rgb(100, 100, 100);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    z-index: 2;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
+.container.websites {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin: 20px auto;
+  max-width: 80vw;
+
+  a {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 2px;
+    max-width: 200px;
+    display: block;
+    word-wrap: break-word;
+    word-break: break-all;
+    color: black;
+    font-size: 1.2em;
   }
 }
-
 .link {
   width: 125px;
   margin: 10px;
