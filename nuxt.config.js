@@ -1,7 +1,7 @@
 module.exports = {
   /*
-  ** Headers of the page
-  */
+   ** Headers of the page
+   */
   head: {
     title: "Make Frontend Shit Again",
     meta: [
@@ -10,40 +10,39 @@ module.exports = {
       {
         hid: "description",
         name: "description",
-        content: "Make Frontend Shit Again"
-      }
+        content: "Make Frontend Shit Again",
+      },
     ],
     link: [
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css?family=Caveat"
+        href: "https://fonts.googleapis.com/css?family=Caveat",
       },
-      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
-    ]
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+    ],
+    script: [
+      {
+        "data-domain": "makefrontendshitagain.party",
+        src: "https://analytics.iamsaravieira.com/js/plausible.js",
+        defer: true,
+      },
+    ],
   },
   /*
-  ** Customize the progress bar color
-  */
+   ** Customize the progress bar color
+   */
   loading: { color: "#3B8070" },
-  modules: [
-    [
-      "@nuxtjs/google-analytics",
-      {
-        id: "UA-37411302-8"
-      }
-    ]
-  ],
   router: {
-    middleware: "i18n"
+    middleware: "i18n",
   },
   plugins: ["~/plugins/i18n.js"],
   generate: {
-    routes: ["/", "/pt"]
+    routes: ["/", "/pt"],
   },
   build: {
     /*
-    ** Run ESLint on save
-    */
-    extend(config, { isDev, isClient }) {}
-  }
+     ** Run ESLint on save
+     */
+    extend(config, { isDev, isClient }) {},
+  },
 }

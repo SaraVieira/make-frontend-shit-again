@@ -14,7 +14,6 @@
     "format": "prettier --write '**/*.{js,css,md}'"
   },
   "dependencies": {
-    "@nuxtjs/google-analytics": "^2.0.2",
     "axios": "^0.18.0",
     "core-js": "^2.6.0",
     "dom101": "^2.2.1",
