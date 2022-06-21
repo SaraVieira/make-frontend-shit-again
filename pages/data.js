@@ -75,5 +75,5 @@ export default [
   "https://turbo.fish/",
   "https://poolside.fm/",
   "https://pointerpointer.com",
-  "http://www.fntb.ru"
+  "http://www.fntb.ru",
 ]

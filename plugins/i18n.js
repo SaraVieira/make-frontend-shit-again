@@ -16,11 +16,11 @@ export default ({ app, store }) => {
       kr: require("~/locales/kr.json"),
       pt: require("~/locales/pt.json"),
       ru: require("~/locales/ru.json"),
-      ua: require("~/locales/ua.json")
-    }
+      ua: require("~/locales/ua.json"),
+    },
   })
 
-  app.i18n.path = link => {
+  app.i18n.path = (link) => {
     if (app.i18n.locale === app.i18n.fallbackLocale) {
       return `/${link}`
     }

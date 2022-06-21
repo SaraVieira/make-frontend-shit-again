@@ -1,4 +1,4 @@
-export default function(props) {
+export default function (props) {
   const { isHMR, app, store, params, error, redirect, route } = props
   const defaultLocale = app.i18n.fallbackLocale
   // If middleware is called from hot module replacement, ignore it

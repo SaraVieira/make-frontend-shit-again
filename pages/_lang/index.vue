@@ -1,7 +1,7 @@
 <template>
   <div>
     <audio
-      src="https://music-shitty-fe.now.sh"
+      src="/Movie_Themes_-_Titanic_-_My_Heart_Will_Go_On_(Techno_Mix).mp3"
       autoplay
       controls
       preload="auto"
