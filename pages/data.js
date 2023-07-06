@@ -1,4 +1,5 @@
 export default [
+  "http://www.themostamazingwebsiteontheinternet.com"
   "http://thatsthefinger.com/",
   "http://hooooooooo.com/",
   "https://gifcities.org/",
