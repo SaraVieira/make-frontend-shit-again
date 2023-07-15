@@ -21,6 +21,7 @@ export default [
   "http://chrismckenzie.com/",
   "http://www.everydayim.com/",
   "https://isxmasafriday13.now.sh/",
+  "https://fantasy.works/",
   "http://endless.horse/",
   "http://corndogoncorndog.com/",
   "http://www.pointerpointer.com/",
@@ -51,6 +52,7 @@ export default [
   "http://rtr.hackedbygod.net/",
   "https://hem.larsemil.se/",
   "http://rayps.com/",
+
   "http://akrepnalan.com/",
   "http://terrorpigeon.us/",
   "https://donotpress.wezz.se/",
@@ -66,4 +68,5 @@ export default [
   "https://puginarug.com/",
   "https://longdogechallenge.com/",
   "https://smashthewalls.com/",
+  "https://cat-bounce.com/",
 ]
