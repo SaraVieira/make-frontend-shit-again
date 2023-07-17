@@ -69,4 +69,5 @@ export default [
   "https://longdogechallenge.com/",
   "https://smashthewalls.com/",
   "https://cat-bounce.com/",
+  "https://www.fucktwitch.tv",
 ]
