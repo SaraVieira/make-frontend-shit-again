@@ -70,5 +70,6 @@ export default [
   "https://smashthewalls.com/",
   "https://cat-bounce.com/",
   "https://funnybanana.org/",
-  "https://font.tf/"
+  "https://font.tf/",
+  "https://www.fucktwitch.tv",
 ]
