@@ -70,5 +70,6 @@ export default [
   "https://cat-bounce.com/",
   "https://funnybanana.org/",
   "https://font.tf/",
-  "https://cultofthepartyparrot.com/"
+  "https://cultofthepartyparrot.com/",
+  "https://bk201-syndicates.webs.com"
 ]
