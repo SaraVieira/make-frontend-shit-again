@@ -52,7 +52,6 @@ export default [
   "http://rtr.hackedbygod.net/",
   "https://hem.larsemil.se/",
   "http://rayps.com/",
-
   "http://akrepnalan.com/",
   "http://terrorpigeon.us/",
   "https://donotpress.wezz.se/",
@@ -70,4 +69,8 @@ export default [
   "https://smashthewalls.com/",
   "https://cat-bounce.com/",
   "http://retro.maniek86.xyz/",
+  "https://funnybanana.org/",
+  "https://font.tf/",
+  "https://cultofthepartyparrot.com/",
+  "https://bk201-syndicates.webs.com",
 ]
