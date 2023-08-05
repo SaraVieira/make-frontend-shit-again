@@ -69,4 +69,5 @@ export default [
   "https://longdogechallenge.com/",
   "https://smashthewalls.com/",
   "https://cat-bounce.com/",
+  "http://retro.maniek86.xyz/",
 ]
