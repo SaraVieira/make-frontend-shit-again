@@ -73,4 +73,9 @@ export default [
   "https://font.tf/",
   "https://cultofthepartyparrot.com/",
   "https://bk201-syndicates.webs.com",
+  "https://isitchristmas.com/",
+  "https://faegardens333.neocities.org/333",
+  "https://boopstcpages.neocities.org/",
+  "https://thepersonever.neocities.org/",
+  "https://neocities.org/browse",
 ]
