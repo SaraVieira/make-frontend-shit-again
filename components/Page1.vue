@@ -44,6 +44,11 @@
               <img width="25" src="../assets/ukraine.gif" alt />
             </nuxt-link>
           </li>
+          <li>
+            <nuxt-link to="/tr" class="Header__Link" exact>
+              <img width="25" src="../assets/tr.gif" alt />
+            </nuxt-link>
+          </li>
         </ul>
       </section>
       <img class="logo" src="../assets/ship.gif" :alt="$t('alt.spaceship')" />
