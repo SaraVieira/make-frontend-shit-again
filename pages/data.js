@@ -79,4 +79,5 @@ export default [
   "https://boopstcpages.neocities.org/",
   "https://thepersonever.neocities.org/",
   "https://neocities.org/browse",
+  "https://www.bitview.net/",
 ]
