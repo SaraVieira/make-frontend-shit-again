@@ -80,4 +80,5 @@ export default [
   "https://thepersonever.neocities.org/",
   "https://neocities.org/browse",
   "https://www.bitview.net/",
+  "https://pidgezero.one/randomizeyourdik.html",
 ]

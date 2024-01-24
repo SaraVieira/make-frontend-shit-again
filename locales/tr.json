@@ -1,0 +1,42 @@
+{
+  "home": {
+    "translations": "Çeviriler",
+    "scroll-down": "Muhteşemlik için aşağı kaydırın | Muhteşemlik için aşağı kaydırın",
+    "user": "Kullanıcı sıran:",
+    "ftp": "FTP'yi hatırladın mı ?",
+    "blink": "Blink'i hatırladın mı ?",
+    "html": "HTML'i hatırladın mı ?",
+    "jquery": "jQuery'i hatırladın mı ?",
+    "inspiration": "Arkadaş Siteler:",
+    "make-websites": "Eğlenceli olduğu için web siteleri yapardık, ama bir noktada yolumuzu kaybettik!",
+    "fun-again": "Aptalca şeyler yapmaya ihtiyacımız var! İşe yaramaz şeyler yapın; interneti yeniden eğlenceli hale getirin!",
+    "website-made": "Bu websitesi",
+    "name": "Sara Vieira",
+    "at-hackaton": "tarafından bir Hackathon'da yapıldı",
+    "code-at": "Kaynak kod için",
+    "gh": "Github"
+  },
+  "alt": {
+    "shit-again": "Frontend'i tekrar saçma yapın",
+    "spaceship": "Ayın etrafında dönen uzay gemisi",
+    "baby": "Dans eden bebek",
+    "crystal": "Kristal Küre",
+    "spinning-spaceship": "Dönen uzay gemisi",
+    "fun": "Frontend'in eğlenceli olduğu zamanları hatırlayın",
+    "hotdog": "Beyzbol sopasını sallayan sosisli sandviç",
+    "ftp": "ftp",
+    "blink": "blink",
+    "html": "html",
+    "jquery": "jquery",
+    "welcome": "İnternete hoş geldiniz, yolculuğun tadını çıkarın",
+    "geocities": "Jeoşehirler harika bir şeydi",
+    "debugging": "Zihinde hata ayıklamak",
+    "computer": "80'lerden kalma, gökkuşağı renginde parlayan ekranı olan bilgisayar",
+    "planet": "Üstünde pizza ve kalplerin olduğu bir gezegen",
+    "seal": "Burnunda dünya küresi döndüren fok",
+    "heart": "Dönen kalp ünlem işareti ifadesi",
+    "valid-html": "w3c geçerli html",
+    "css": "w3c geçerli css",
+    "netscape": "Bu sayfa artık en iyi Netscape ile görüntüleniyor!"
+  }
+}
