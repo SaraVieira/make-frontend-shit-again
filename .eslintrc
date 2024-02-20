@@ -1,12 +1,11 @@
 {
   "root": true,
-  "extends": ["prettier", "prettier/standard", "plugin:vue/recommended"],
-  "plugins": ["vue", "prettier"],
+  "extends": ["plugin:vue/recommended"],
+  "plugins": ["vue"],
   "parserOptions": {
     "parser": "babel-eslint"
   },
   "rules": {
-    "prettier/prettier": "error",
     "vue/component-name-in-template-casing": 0
   }
 }

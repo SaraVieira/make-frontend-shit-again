@@ -22,8 +22,15 @@
       {{ $t("home.inspiration") }}
     </h1>
     <section class="container websites">
-      <div v-for="website in data" :key="website.url">
-        <a :href="website.url" target="_blank" rel="nofollow noopener">
+      <div
+        v-for="website in data"
+        :key="website.url"
+      >
+        <a
+          :href="website.url"
+          target="_blank"
+          rel="nofollow noopener"
+        >
           {{ website.name }}
         </a>
       </div>
