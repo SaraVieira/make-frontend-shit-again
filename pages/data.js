@@ -82,4 +82,5 @@ export default [
   "https://www.bitview.net/",
   "https://pidgezero.one/randomizeyourdik.html",
   "https://froggi.es/",
+  "https://youareanidiot.cc/",
 ]
