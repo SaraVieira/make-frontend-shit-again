@@ -83,4 +83,5 @@ export default [
   "https://pidgezero.one/randomizeyourdik.html",
   "https://froggi.es/",
   "https://youareanidiot.cc/",
+  "https://arizzitano.github.io/css3wordart/",
 ]
