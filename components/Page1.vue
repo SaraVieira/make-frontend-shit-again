@@ -109,6 +109,19 @@
               >
             </nuxt-link>
           </li>
+          <li>
+            <nuxt-link
+              to="/pl"
+              class="Header__Link"
+              exact
+            >
+              <img
+                width="25"
+                src="../assets/pl.gif"
+                alt
+              >
+            </nuxt-link>
+          </li>
         </ul>
       </section>
       <img
