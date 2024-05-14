@@ -1,0 +1,42 @@
+{
+  "home": {
+    "translations": "Tłumaczenia",
+    "scroll-down": "Przewiń w dół, aby najbardziej najlepsze | Przewiń w dół, aby kapitalnie",
+    "user": "Ty jesteś użytkownik:",
+    "ftp": "Pamiętasz FTP ?",
+    "blink": "Pamiętasz Blink ?",
+    "html": "Pamięntasz HTML ?",
+    "jquery": "Pamiętasz jQuery ?",
+    "inspiration": "Kolegowe Strony:",
+    "make-websites": "Kiedyś robiliśmy strony dla frajdy, ale gdzieś po drodze, straciliśmy nasze powołanie.",
+    "fun-again": "Musimy znowu srać! Zrób niesłychanie bezużyteczne; spraw by internet był znowu klawy!",
+    "website-made": "Strona stworzona przez:",
+    "name": "Sara Vieira",
+    "at-hackaton": "na Hakatonie",
+    "code-at": "Kod źródłowy na:",
+    "gh": "Githabie"
+  },
+  "alt": {
+    "shit-again": "Spraw Frontend Gówno Znowu",
+    "spaceship": "kosmiczny samolot orbitujący wokół sera",
+    "baby": "kaszojad tańcujący",
+    "crystal": "kulka kryształu",
+    "spinning-spaceship": "obrotowy spacja statek",
+    "fun": "Pamiętasz kiedy frontend był przedni?",
+    "hotdog": "hotdog machajoncy kijem bejsbolowym",
+    "ftp": "eftepe",
+    "blink": "blink",
+    "html": "hateemel",
+    "jquery": "dżejkuery",
+    "welcome": "Witam w internet, miłej przejażdżki",
+    "geocities": "Geocities było w dechę",
+    "debugging": "debagowanie umysłu",
+    "computer": "komp z osiemdziesiątych z tenczowym ekranem (świeci!!)",
+    "planet": "planeta z piccą i tętnem",
+    "seal": "foka robiąca globusowe triki na trzepaku",
+    "heart": "obrót serce wykrzyknąć buźka",
+    "valid-html": "w3c walidowane html",
+    "css": "w3c potwierdzony css",
+    "netscape": "Ta strona jest najlepiej paczona z Netskejpem Nał"
+  }
+}
