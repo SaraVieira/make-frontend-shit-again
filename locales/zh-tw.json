@@ -1,0 +1,42 @@
+{
+  "home": {
+    "translations": "翻譯",
+    "scroll-down": "下滑享受超讚內容 | 下滑享受超讚內容",
+    "user": "用戶為:",
+    "ftp": "記得FTP嗎 ?",
+    "blink": "記得Blink嗎 ?",
+    "html": "記得HTMl嗎 ?",
+    "jquery": "記得jQuery嗎 ?",
+    "inspiration": "其他有趣的網站:",
+    "make-websites": "以前製作網站只是為了好玩，但不知何時，我們失去了那股熱誠。",
+    "fun-again": "找回那股熱誠，製作更多沒用但好玩的東西吧！",
+    "website-made": "網站由 ",
+    "name": "Sara Vieira",
+    "at-hackaton": " 在參加黑客松時製作",
+    "code-at": "原網站代碼 在",
+    "gh": "Github"
+  },
+  "alt": {
+    "shit-again": "讓前端再次爛到有剩",
+    "spaceship": "太空梭公轉月球",
+    "baby": "寶寶跳舞",
+    "crystal": "水晶球",
+    "spinning-spaceship": "太空梭旋轉",
+    "fun": "記得前端沒有標準的時候嗎?",
+    "hotdog": "熱狗打棒球",
+    "ftp": "ftp",
+    "blink": "blink",
+    "html": "html",
+    "jquery": "jquery",
+    "welcome": "歡迎來到互聯網，請享受這段旅程。",
+    "geocities": "Geocities超屌",
+    "debugging": "除錯身心",
+    "computer": "80年代彩虹螢幕電腦",
+    "planet": "一個充滿愛心和披薩的星球",
+    "seal": "海豹頂在鼻子上旋轉",
+    "heart": "有著驚嘆號的旋轉愛心",
+    "valid-html": "w3c valid html",
+    "css": "w3c valid css",
+    "netscape": "請使用 Netscape 瀏覽器觀看本網頁，以獲得最佳效果。"
+  }
+}

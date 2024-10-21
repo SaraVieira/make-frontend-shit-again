@@ -122,6 +122,19 @@
               >
             </nuxt-link>
           </li>
+          <li>
+            <nuxt-link
+              to="/zh-tw"
+              class="Header__Link"
+              exact
+            >
+              <img
+                width="25"
+                src="../assets/taiwan.gif"
+                alt
+              >
+            </nuxt-link>
+          </li>
         </ul>
       </section>
       <img
