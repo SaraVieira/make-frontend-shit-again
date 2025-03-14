@@ -11,4 +11,6 @@ npm-debug.log
 dist
 
 # mac metadata
- .DS_Store
+.DS_Store
+
+.idea

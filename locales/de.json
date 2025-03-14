@@ -1,0 +1,42 @@
+{
+  "home": {
+    "translations": "Übersetzungen",
+    "scroll-down": "Scrolle nach unten, um zu staunen | Scrolle nach unten, um zu staunen",
+    "user": "Du bist Nutzer:",
+    "ftp": "Erinnerst du dich noch an FTP ?",
+    "blink": "Erinnerst du dich noch an Blink ?",
+    "html": "Erinnerst du dich noch an HTML ?",
+    "jquery": "Erinnerst du dich noch an jQuery ?",
+    "inspiration": "Befreundete Seiten:",
+    "make-websites": "Wir haben früher Websites erstellt, weil es Spaß gemacht hat, aber irgendwann haben wir den Weg verloren.",
+    "fun-again": "Wir müssen wieder dummes Zeug bauen! Baut unnützes Zeug; macht das Web wieder lustig!",
+    "website-made": "Website erstellt von",
+    "name": "Sara Vieira",
+    "at-hackaton": "bei einem Hackathon",
+    "code-at": "Quellcode auf",
+    "gh": "Github"
+  },
+  "alt": {
+    "shit-again": "Frontend wieder scheiße machen",
+    "spaceship": "Raumschiff, das um den Mond kreist",
+    "baby": "tanzendes Baby",
+    "crystal": "Kristallkugel",
+    "spinning-spaceship": "drehendes Raumschiff",
+    "fun": "Weißt du noch, als Frontend Spaß gemacht hat?",
+    "hotdog": "Hotdog schwingt einen Baseballschläger“",
+    "ftp": "ftp",
+    "blink": "blink",
+    "html": "html",
+    "jquery": "jquery",
+    "welcome": "Willkommen im Internet, genieß die Fahrt",
+    "geocities": "Geocities war dope",
+    "debugging": "Debugging the mind",
+    "computer": "Computer aus den 80ern mit Regenbogen leuchtendem Bildschirm",
+    "planet": "ein Planet mit Pizza und Herzen oben drauf",
+    "seal": "Seehund mit einer Erde, die sich auf der Nase dreht",
+    "heart": "ich drehendes Herz-Ausrufe-Emoji",
+    "valid-html": "w3c gültiges html",
+    "css": "w3c gültiges css",
+    "netscape": "Diese Seite wird jetzt am besten mit Netscape angezeigt!"
+  }
+}
