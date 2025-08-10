@@ -135,6 +135,19 @@
               >
             </nuxt-link>
           </li>
+          <li>
+            <nuxt-link
+              to="/de"
+              class="Header__Link"
+              exact
+            >
+              <img
+                width="25"
+                src="../assets/de.gif"
+                alt
+              >
+            </nuxt-link>
+          </li>
         </ul>
       </section>
       <img
@@ -227,3 +240,5 @@ img {
   left: 0;
 }
 </style>
+<script setup lang="ts">
+</script>
